@@ -11,11 +11,11 @@ export const LogoImage = ({ className }: LogoImageProps) => {
 	return (
 		<Link href='/' className='w-[150px]' style={{ width: "150px" }}>
 			<Picture
-				src={logoImage}
+				src="/images/goodwill.png"
 				alt='logo'
 				priority
 				loading='lazy'
-				className={`!w-[80px] lg:!w-[100px] h-[80px] lg:h-[100px] duration-300 hover:scale-105 transition-[.3] hover:animate-pulse ${className}`}
+				className={`!w-[80px] lg:!w-[100px] h-[80px] object-contain lg:h-[100px] duration-300 hover:scale-105 transition-[.3] hover:animate-pulse ${className}`}
 			/>
 		</Link>
 	);
