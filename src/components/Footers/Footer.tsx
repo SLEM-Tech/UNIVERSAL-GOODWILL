@@ -48,7 +48,7 @@ const Footer = () => {
       icon: (
         <Iconbi.BiLogoLinkedin className="text-lg sm:text-2xl text-white" />
       ),
-      link: "http://instagram.com",
+      link: "http://linkedin.com",
       backgroundColor: "bg-[#0274B3]",
     },
   ];
