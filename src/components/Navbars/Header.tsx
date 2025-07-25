@@ -262,7 +262,7 @@ const Header = () => {
                   type="button"
                   className="px-6 text-primary te font-semibold transition-[.5] rounded-r-sm hover:text-primaryColor-200 focus:outline-none focus:ring focus:border-blue-300 text-xl"
                 >
-                  <ImSpinner2 className="animate-spin" />
+                  <ImSpinner2 className="absolute right-3 top-2.5 animate-spin" />
                 </button>
               ) : (
                 <button
@@ -574,13 +574,13 @@ const Header = () => {
             />
           )}
         </div>
-        {/* {pathname.includes("/category") ? (
+        {pathname.includes("/category") ? (
           <CategoryPageBottomHeader />
         ) : pathname.includes("/home-item") ? (
           <ProductPageBottomHeader />
         ) : (
           <HomePageBottomHeader />
-        )} */}
+        )}
       </header>
 
       <Modal
