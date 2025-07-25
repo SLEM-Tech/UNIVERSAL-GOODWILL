@@ -19,13 +19,13 @@ const HomePageBottomHeader = () => {
           <Link
             key={link.id}
             href={link.href}
-            className={`text-base font-[300] leading-[1.8] transition hover:text-[#F8CB47] relative group ${
-              pathname === link.href ? "text-[#F8CB47]" : "text-black"
+            className={`text-base font-[300] leading-[1.8] transition hover:text-primary relative group ${
+              pathname === link.href ? "text-primary" : "text-black"
             }`}
           >
             {link.text}
             <span
-              className={`h-[1px] inline-block bg-[#F8CB47] absolute left-0 -bottom-0 group-hover:w-full transition-width ease duration-300 ${
+              className={`h-[1px] inline-block bg-primary absolute left-0 -bottom-0 group-hover:w-full transition-width ease duration-300 ${
                 pathname === link.href ? "w-full" : "w-0"
               }`}
             >

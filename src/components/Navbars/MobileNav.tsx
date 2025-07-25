@@ -76,7 +76,7 @@ const MobileNav: React.FC<MobileNavProps> = ({
                 >
                   All Category
                 </motion.button>
-                {/* <motion.button
+                <motion.button
                   initial={{ scale: 1 }}
                   whileHover={{ scale: 1.05 }}
                   className={`px-4 py-2 rounded-md ${
@@ -87,7 +87,7 @@ const MobileNav: React.FC<MobileNavProps> = ({
                   onClick={() => handleTabClick("others")}
                 >
                   Others
-                </motion.button> */}
+                </motion.button>
               </div>
               <div className="flex w-full flex-col gap-4 text-lg px-3 pt-3">
                 {activeTab === "allCategory" && (
@@ -122,7 +122,7 @@ const MobileNav: React.FC<MobileNavProps> = ({
                       })}
                   </motion.div>
                 )}
-                {/* {activeTab === "others" && (
+                {activeTab === "others" && (
                   <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -151,7 +151,7 @@ const MobileNav: React.FC<MobileNavProps> = ({
                       </Link>
                     ))}
                   </motion.div>
-                )} */}
+                )}
               </div>
             </div>
           </Drawer>

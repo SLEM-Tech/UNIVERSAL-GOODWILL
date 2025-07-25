@@ -252,8 +252,9 @@ const AllCategorySection = () => {
             </div>
           </section>
 
+          <p className="text-3xl mb-6">BROWSE CATEGORIES</p>
           <div
-            className="flex w-full gap-3 sm:gap-6 overflow-x-auto scroll-smooth overflow-y-hidden no-scrollbar"
+            className="flex justify-center w-full gap-3 sm:gap-6 overflow-x-auto scroll-smooth overflow-y-hidden no-scrollbar "
             ref={sliderRef}
           >
             {Categories?.map((category: CategoryType) => {

@@ -43,6 +43,7 @@ import {
   BadgePercent,
   MapPin,
   Search,
+  ShoppingBag,
   ShoppingCart,
   Truck,
   User,
@@ -217,26 +218,6 @@ const Header = () => {
           navbar ? "" : " "
         }`}
       >
-        <div className="bg-[#F8CB47] w-full px-4 py-4 text-sm flex justify-between items-center max-md:hidden">
-          <div className="text-gray-800">
-            <strong>Delivery in 10 minutes</strong>
-          </div>
-          <div className="flex space-x-4 text-gray-700">
-            <p className="flex gap-2 items-center">
-              <MapPin className="text-white w-6" />
-              Deliver to <strong>411017</strong>
-            </p>
-            <span className="text-white pr-3">|</span>
-            <p className="flex gap-2 items-center">
-              <Truck className="text-white w-6" />
-              Track your order
-            </p>
-            <span className="text-white pr-3">|</span>
-            <p className="flex gap-2 items-center">
-              <BadgePercent className="text-white w-6" /> All Offers
-            </p>
-          </div>
-        </div>
         {/* Desktop */}
         <div className="hidden slg:grid grid-cols-4 items-center w-full py-1 max-w-[1200px] z-30 px-5 xl:px-0">
           <LogoImage className="w-[100px] lg:w-[120px] col-span-1" />
@@ -248,7 +229,7 @@ const Header = () => {
                 type="text"
                 placeholder="Search essentials..."
                 // text-base text-black/70 px-4 w-[300px] xl:w-[400px] py-1 border border-[#ccc] rounded-l-sm outline-none focus:border-primaryColor-100 focus:ring-primaryColor-100 focus:ring-1 transition
-                className="w-full pl-2 pr-4 py-2 rounded-md border border-gray-300 bg-[#F3F9FB] focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+                className="w-[450px] pl-2 px-4 py-2 rounded-full border border-gray-300 bg-[#F3F9FB] focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
                 value={searchValue}
                 onChange={handleInputChange}
                 onKeyDown={(event) => {
@@ -293,7 +274,7 @@ const Header = () => {
                 </div>
               ) : (
                 // <UserIconSvg className="w-8 h-8" />
-                <User className="text-primary" />
+                <User className="text-black" />
               )}
 
               <div className="flex flex-col text-primary font-semibold text-sm">
@@ -345,7 +326,7 @@ const Header = () => {
                 ) : (
                   <div className="flex flex-col">
                     <span
-                      className="cursor-pointer text-gray-400 hover:text-primaryColor-200 transition"
+                      className="cursor-pointer text-black hover:text-primaryColor-200 transition"
                       onClick={() => router.push("/user/login")}
                     >
                       Login
@@ -364,11 +345,11 @@ const Header = () => {
             <span className="text-gray-300">|</span>
 
             <div className="flex items-center gap-2">
-              {/* <Dropdown>
+              <Dropdown>
                 <DropdownTrigger className="">
                   <button
                     type="button"
-                    className="bg-white border border-primaryColor-100 hover:bg-black cursor-pointer transition-[.4] group text-primaryColor-100 text-2xl group-hover:text-white rounded-full p-0 size-10"
+                    className="bg-black border hover:bg-black cursor-pointer transition-[.4] rounded-md text-primaryColor-100 text-2xl group-hover:text-white p-0 size-8"
                   >
                     {baseCurrency?.symbol}
                   </button>
@@ -392,7 +373,7 @@ const Header = () => {
                     </DropdownItem>
                   ))}
                 </DropdownMenu>
-              </Dropdown> */}
+              </Dropdown>
               <div
                 className="flex gap-2 justify-center items-center cursor-pointer"
                 onClick={() => router.push("/cart")}
@@ -402,7 +383,7 @@ const Header = () => {
                     <span className="absolute -top-1 -right-1 w-5 h-5 bg-red-500 text-white shadow-lg flex justify-center items-center rounded-full">
                       {totalItems}
                     </span>
-                    <ShoppingCart className="text-primary" />
+                    <ShoppingBag />
                   </div>
                 )}
                 <span className="truncate text-sm font-semibold w-16 overflow-hidden">
@@ -518,7 +499,7 @@ const Header = () => {
                 ) : (
                   <User
                     onClick={() => router.push("/user/login")}
-                    className="text-primary w-6 h-6"
+                    className="w-6 h-6"
                   />
                 )}
               </div>
@@ -531,7 +512,7 @@ const Header = () => {
                     {totalItems}
                   </span>
                   {/* <CartIconSvg /> */}
-                  <ShoppingCart className="text-primary" />
+                  <ShoppingBag />
                 </div>
               )}
             </div>
@@ -574,13 +555,13 @@ const Header = () => {
             />
           )}
         </div>
-        {pathname.includes("/category") ? (
+        {/* {pathname.includes("/category") ? (
           <CategoryPageBottomHeader />
         ) : pathname.includes("/home-item") ? (
           <ProductPageBottomHeader />
         ) : (
           <HomePageBottomHeader />
-        )}
+        )} */}
       </header>
 
       <Modal
