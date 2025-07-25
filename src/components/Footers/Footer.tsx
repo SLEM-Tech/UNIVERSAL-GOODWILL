@@ -34,7 +34,7 @@ const Footer = () => {
       icon: (
         <Iconbi.BiLogoFacebook className="text-lg sm:text-2xl text-white" />
       ),
-      link: "http://facebook.com/duply/",
+      link: "http://facebook.com",
       backgroundColor: "bg-[#365493]",
     },
     // {
@@ -48,7 +48,7 @@ const Footer = () => {
       icon: (
         <Iconbi.BiLogoLinkedin className="text-lg sm:text-2xl text-white" />
       ),
-      link: "http://instagram.com/duply/",
+      link: "http://instagram.com",
       backgroundColor: "bg-[#0274B3]",
     },
   ];
