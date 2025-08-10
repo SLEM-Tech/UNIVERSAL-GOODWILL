@@ -235,7 +235,6 @@ const Page = () => {
 							<li>On-site deployment services available for large implementations</li>
 							<li>Custom integration support for existing business systems</li>
 							<li>User training programs and certification courses included</li>
-							<li>24/7 emergency support hotline: +234-801-234-5002</li>
 						</ul>
 						</div>
 
@@ -301,7 +300,7 @@ const Page = () => {
 							<li>90-day evaluation period for enterprise licenses over ₦500,000</li>
 							<li>Partial refunds available for unused license seats in volume purchases</li>
 							<li>Custom development components subject to milestone-based refund terms</li>
-							<li>Integration failure refunds available if compatibility requirements aren't met</li>
+							<li>Integration failure refunds available if compatibility requirements aren&apos;t met</li>
 							<li>Priority refund processing for enterprise customers (2-3 business days)</li>
 							</ul>
 						</li>
