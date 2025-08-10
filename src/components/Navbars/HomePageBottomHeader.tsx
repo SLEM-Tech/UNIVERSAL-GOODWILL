@@ -9,7 +9,7 @@ const HomePageBottomHeader = () => {
 	const pathname = usePathname();
 
 	return (
-		<nav className="hidden slg:flex justify-center items-center w-full py-4 bg-gradient-to-r from-[#141414]/60 via-[#141414]/50 to-[#141414]/60 backdrop-blur-sm border-t border-white/10 shadow-lg">
+		<nav className="hidden slg:flex justify-center items-center w-full py-4 bg-gray-100 backdrop-blur-sm shadow-lg">
 			<div className="flex items-center justify-center w-full max-w-6xl mx-auto px-6">
 				{/* Navigation Links */}
 				<div className="flex items-center gap-10">
