@@ -92,7 +92,7 @@ const Page = () => {
 						</h4>
 
 						<p className='mt-2 leading-[1.8] text-xs md:text-sm xl:text-base'>
-						By accessing and using Universal Goodwill Industries Limited's software applications and services, you agree to be bound by these comprehensive terms and conditions:
+						By accessing and using Universal Goodwill Industries Limited&apos;s software applications and services, you agree to be bound by these comprehensive terms and conditions:
 						</p>
 
 						<ul className='list-disc pl-5 mt-2 space-y-2 text-xs md:text-sm xl:text-base'>
