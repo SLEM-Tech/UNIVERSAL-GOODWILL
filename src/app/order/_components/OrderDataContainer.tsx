@@ -40,7 +40,7 @@ const OrderDataContainer = () => {
 			)}
 			{isLoadingOrder && (
 				<div className='flex w-full justify-center mt-6 h-[30vh]'>
-					<ScaleLoader color='#28CB6D' />
+					<ScaleLoader color='#141414' />
 				</div>
 			)}
 		</>

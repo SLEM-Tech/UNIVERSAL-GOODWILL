@@ -48,7 +48,7 @@ const HomeApplianceSection = ({
 			{isloading && (
 				<div className='flex overflow-hidden pt-6 pb-4 px-8 xs:px-0 slg:min-h-[30vh]'>
 					<div className='flex w-full justify-center'>
-						<ScaleLoader color='#28CB6D' />
+						<ScaleLoader color='#141414' />
 					</div>
 				</div>
 			)}

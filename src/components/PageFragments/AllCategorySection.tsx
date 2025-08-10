@@ -163,13 +163,14 @@ const AllCategorySection = () => {
 							// 	}`}
 							// 	className='mt-10'
 							// >
-							<Picture
-								// src={Categories[0]?.image?.src}
-								src={heroImage}
-								alt={"hero-image"}
-								className='w-full object-fill h-fit sm:h-[270px] bg-primaryColor-300/40'
-							/>
+							// <Picture
+							// 	// src={Categories[0]?.image?.src}
+							// 	src={heroImage}
+							// 	alt={"hero-image"}
+							// 	className='w-full object-fill h-fit sm:h-[270px] bg-primaryColor-300/40'
+							// />
 							// </Link>
+							<></>
 						)}
 
 						<div className='grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 overflow-x-auto hide-scrollbar mt-4 md:mt-6 lg:mt-8'>

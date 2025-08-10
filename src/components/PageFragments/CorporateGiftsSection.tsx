@@ -50,7 +50,7 @@ const CorporateGiftsSection = () => {
 			<div className='flex overflow-hidden pt-6 pb-4 px-8 xs:px-0'>
 				{productIsLoading && (
 					<div className='flex w-full justify-center slg:min-h-[30vh]'>
-						<ScaleLoader color='#28CB6D' />
+						<ScaleLoader color='#141414' />
 					</div>
 				)}
 				{productsData && (

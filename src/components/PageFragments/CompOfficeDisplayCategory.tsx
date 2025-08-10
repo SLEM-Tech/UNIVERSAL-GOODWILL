@@ -63,7 +63,7 @@ const CompOfficeDisplayCategory = ({
 				<div className='flex-1 hidden slg:flex gap-2 items-center justify-center overflow-hidden pt-1'>
 					{isloading && (
 						<div className='flex w-full justify-center'>
-							<ScaleLoader color='#28CB6D' />
+							<ScaleLoader color='#141414' />
 						</div>
 					)}
 					{data && (
@@ -110,7 +110,7 @@ const CompOfficeDisplayCategory = ({
 			</div>
 			{isloading && (
 				<div className='flex w-full justify-center slg:hidden'>
-					<ScaleLoader color='#28CB6D' />
+					<ScaleLoader color='#141414' />
 				</div>
 			)}
 		</section>

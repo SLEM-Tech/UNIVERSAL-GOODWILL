@@ -40,6 +40,31 @@ export {
 	categoryImg2,
 };
 
+export const chooseImageThree = {
+	src: "./images/image-3.png",
+	alt: "Landing",
+};
+
+export const chooseImageTwo = {
+	src: "./images/image-2.png",
+	alt: "Landing",
+};
+
+export const chooseImageOne = {
+	src: "./images/image-1.png",
+	alt: "Landing",
+};
+
+export const landingSecondImage = {
+	src: "./images/landing-second-image.png",
+	alt: "Landing",
+};
+
+export const landingImage = {
+	src: "./images/landing-image.png",
+	alt: "Landing",
+};
+
 export const fashionSnip = {
 	src: "./images/fashion-snip.png",
 	alt: "Fashion snip",

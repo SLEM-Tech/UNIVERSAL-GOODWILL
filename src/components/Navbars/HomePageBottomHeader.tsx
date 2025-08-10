@@ -2,50 +2,52 @@
 import { useState, useEffect } from "react";
 import { headerNavLinks } from "@constants";
 import Link from "next/link";
-import * as Iconbs from "react-icons/bs";
 import React from "react";
 import { usePathname } from "next/navigation";
 
 const HomePageBottomHeader = () => {
 	const pathname = usePathname();
 
-	const phoneNumber = "09160001343";
 	return (
-		<nav
-			className={`hidden slg:flex justify-center gap-24 items-center w-full py-3 bg-primaryColor-300 transition`}
-		>
-			<div className='flex w-fit gap-8 overflow-hidden'>
-				{headerNavLinks.map((link) => (
-					<Link
-						key={link.id}
-						href={link.href}
-						className={`text-base font-[300] leading-[1.8] transition hover:text-effect relative group ${
-							pathname === link.href ? "text-effect" : "text-white"
-						}`}
-					>
-						{link.text}
-						<span
-							className={`h-[1px] inline-block bg-effect absolute left-0 -bottom-0 group-hover:w-full transition-width ease duration-300 ${
-								pathname === link.href ? "w-full" : "w-0"
+		<nav className="hidden slg:flex justify-center items-center w-full py-4 bg-gradient-to-r from-[#141414]/60 via-[#141414]/50 to-[#141414]/60 backdrop-blur-sm border-t border-white/10 shadow-lg">
+			<div className="flex items-center justify-center w-full max-w-6xl mx-auto px-6">
+				{/* Navigation Links */}
+				<div className="flex items-center gap-10">
+					{headerNavLinks.map((link, index) => (
+						<Link
+							key={link.id}
+							href={link.href}
+							className={`relative text-base font-light tracking-wide transition-all duration-300 hover:text-primary group ${
+								pathname === link.href ? "text-primary" : "text-white/90"
 							}`}
 						>
-							&nbsp;
-						</span>
-					</Link>
-				))}
-			</div>
-			{/* <div className='flex justify-center text-white items-center gap-2'>
-				<Iconbs.BsTelephone />
-				<div className='flex justify-center items-center'>
-					<span className='font-[300] leading-[1.8]'>Phone:&nbsp;</span>
-					<a
-						className='font-medium hover:text-effect transition'
-						href={`tel:${phoneNumber}`}
-					>
-						{phoneNumber}
-					</a>
+							{link.text}
+							
+							{/* Animated underline */}
+							<span
+								className={`absolute left-0 -bottom-1 h-0.5 bg-gradient-to-r from-primary to-primary/60 rounded-full transition-all duration-300 ease-out ${
+									pathname === link.href ? "w-full" : "w-0 group-hover:w-full"
+								}`}
+							/>
+							
+							{/* Hover glow effect */}
+							<span
+								className={`absolute inset-0 rounded-md transition-all duration-300 ${
+									pathname === link.href 
+										? "bg-primary/10 scale-110" 
+										: "bg-transparent group-hover:bg-white/5 group-hover:scale-105"
+								}`}
+							/>
+						</Link>
+					))}
 				</div>
-			</div> */}
+			</div>
+
+			{/* Optional: Decorative elements */}
+			<div className="absolute left-0 top-0 w-full h-full overflow-hidden pointer-events-none">
+				<div className="absolute -top-2 left-1/4 w-32 h-32 bg-primary/5 rounded-full blur-3xl animate-pulse" />
+				<div className="absolute -bottom-2 right-1/4 w-24 h-24 bg-white/5 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '1s' }} />
+			</div>
 		</nav>
 	);
 };

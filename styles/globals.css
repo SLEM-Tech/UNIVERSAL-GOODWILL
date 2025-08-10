@@ -119,14 +119,14 @@ body {
 }
 
 .swiper-pagination-bullet {
-	background-color: #28CB6D !important; /* Customize the color as per your preference */
-	color: #28CB6D !important;
+	background-color: #141414 !important; /* Customize the color as per your preference */
+	color: #141414 !important;
 }
 
 /* Change the color of the default arrow */
 .swiper-button-prev,
 .swiper-button-next {
-	color: #28CB6D; /* Change this to your desired color */
+	color: #141414; /* Change this to your desired color */
 }
 
 @layer utilities {

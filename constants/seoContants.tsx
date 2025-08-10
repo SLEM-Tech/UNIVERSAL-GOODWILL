@@ -1,7 +1,7 @@
-const websiteUrl = "https://www.duply.com.ng/";
-export const websiteName = "Duply";
+const websiteUrl = "https://www.universal-goodwill.com.ng/";
+export const websiteName = "Universal Goodwill";
 export const SEODATA = {
-	defaultOGImage: `https://www.duply.com.ng/_next/static/media/duply-logo.6c861d97.png`,
+	defaultOGImage: `https://www.universal-goodwill.com.ng/_next/static/media/duply-logo.6c861d97.png`,
 	default: {
 		title: websiteName,
 		description: `This is ${websiteName}`,

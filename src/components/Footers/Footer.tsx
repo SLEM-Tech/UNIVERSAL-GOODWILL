@@ -121,7 +121,7 @@ const Footer = () => {
 	const staggerDelay = 0.2;
 
 	return (
-		<footer className='bg-white w-full py-2 flex flex-col item-center border-t-[3px] border-primary'>
+		<footer className='bg-[#EEEEEE] w-full py-2 flex flex-col item-center'>
 			<div className='mx-auto max-w-[1400px] w-full hidden slg:block'>
 				<section className='flex justify-center gap-16 mt-2'>
 					<div className='flex flex-col gap-4 w-[80%]'>
@@ -130,7 +130,7 @@ const Footer = () => {
 							The best store for you!
 						</span>
 
-						<div className='flex gap-1'>
+						{/* <div className='flex gap-1'>
 							{footer1socialMediaIcons.map((item, index) => (
 								<motion.a
 									href={item.link}
@@ -143,7 +143,7 @@ const Footer = () => {
 									{item.icon}
 								</motion.a>
 							))}
-						</div>
+						</div> */}
 					</div>
 
 					<div className='flex gap-4 w-full pt-3'>

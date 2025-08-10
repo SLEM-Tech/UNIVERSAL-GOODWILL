@@ -24,7 +24,7 @@ const AppProvider = ({ children }: AppProviderProps) => {
 		<>
 			<QueryClientProvider client={queryClient}>
 				<LoadingBar
-					color='#28CB6D'
+					color='#141414'
 					ref={loadingBarRef as React.RefObject<LoadingBarRef>}
 					height={5}
 				/>
