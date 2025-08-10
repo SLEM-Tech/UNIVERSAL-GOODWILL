@@ -17,7 +17,7 @@ function HeroSection() {
             Smart Apps, Simple Purchase.
           </h1>
           <p className="text-gray-600 text-lg mb-8 max-w-md mx-auto">
-            From creative tools to business essentials, we've got what you need.
+            From creative tools to business essentials, we&apos;ve got what you need.
           </p>
           
           {/* CTA Button */}
