@@ -99,10 +99,8 @@ const Header = () => {
 		setIsSearchLoading(true);
 		if (pathname === "/search") {
 			setIsSearchLoading(false);
-			router.push(`/search?${searchValue}`);
-		} else {
-			router.push(`/search?${searchValue}`);
-		}
+		} 
+		router.push(`/search?${searchValue}`);
 	};
 
 	// useEffect(() => {

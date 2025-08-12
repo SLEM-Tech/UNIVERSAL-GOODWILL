@@ -41,7 +41,7 @@ const SubCategoryCard = ({ id, image, name }: SubCategoryCardProps) => {
 
 			<h4
 				dangerouslySetInnerHTML={{ __html: name }}
-				className='text-primaryColor-100 font-semibold leading-[1.5rem] pb-2 text-center'
+				className='text-primary font-semibold leading-[1.5rem] pb-2 text-center'
 			/>
 		</Link>
 	);

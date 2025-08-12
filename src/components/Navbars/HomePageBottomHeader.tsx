@@ -18,7 +18,7 @@ const HomePageBottomHeader = () => {
 							key={link.id}
 							href={link.href}
 							className={`relative text-base font-light tracking-wide transition-all duration-300 hover:text-primary group ${
-								pathname === link.href ? "text-primary" : "text-white/90"
+								pathname === link.href ? "text-primary" : "text-black/90"
 							}`}
 						>
 							{link.text}

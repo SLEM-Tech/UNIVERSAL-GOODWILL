@@ -2,6 +2,7 @@ import React from 'react';
 import { CheckCircle, Shield, Users, Heart } from 'lucide-react';
 import { chooseImageOne, chooseImageThree, chooseImageTwo, landingImage, landingSecondImage } from '@public/images';
 import ChooseCard from '../Cards/ChooseCard';
+import Link from 'next/link';
 
 function HeroSection() {
   return (
@@ -21,9 +22,9 @@ function HeroSection() {
           </p>
           
           {/* CTA Button */}
-          <button className="inline-flex items-center gap-2 bg-gray-900 text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-colors">
+          <Link href="/category" className="inline-flex items-center gap-2 bg-gray-900 text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-colors">
             Get Started
-          </button>
+          </Link>
         </div>
         
         {/* Server room image representation */}
