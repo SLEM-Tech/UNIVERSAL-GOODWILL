@@ -331,7 +331,7 @@ const Header = () => {
 								<DropdownTrigger className=''>
 									<button
 										type='button'
-										className='bg-white border border-primaryColor-100 hover:bg-black cursor-pointer transition-[.4] group text-primaryColor-100 text-2xl group-hover:text-white rounded-full p-0 size-10'
+										className='bg-white border border-primaryColor-100 hover:bg-black cursor-pointer transition-[.4] group text-primary text-2xl group-hover:text-white rounded-full p-0 size-10'
 									>
 										{baseCurrency?.symbol}
 									</button>
@@ -393,7 +393,7 @@ const Header = () => {
 									<DropdownTrigger className=''>
 										<button
 											type='button'
-											className='bg-white border border-primaryColor-100 hover:bg-black cursor-pointer transition-[.4] group text-primaryColor-100 text-xl group-hover:text-white rounded-full p-0 size-8'
+											className='bg-white border border-primaryColor-100 hover:bg-black cursor-pointer transition-[.4] group text-primary text-xl group-hover:text-white rounded-full p-0 size-8'
 										>
 											{baseCurrency?.symbol}
 										</button>

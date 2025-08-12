@@ -37,7 +37,7 @@ const CategoryPageBottomHeader = () => {
 		>
 			<div className='flex w-full max-w-[1156px] gap-2 text-sm capitalize leading-[1.4] px-36'>
 				<h4
-					className='text-primary font-[400] cursor-pointer hover:text-primaryColor-100'
+					className='text-primary font-[400] cursor-pointer border border-transparent hover:border-primary'
 					onClick={() => router.push("/")}
 				>
 					Home

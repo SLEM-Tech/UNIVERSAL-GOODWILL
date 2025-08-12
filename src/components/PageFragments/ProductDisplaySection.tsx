@@ -206,7 +206,7 @@ const ProductDisplaySection = ({ FormatedId }: ProductDisplaySectionProps) => {
 											</button>
 										)}
 										<div className='flex gap-2 flex-col sm:flex-row sm:items-center'>
-											<span className='font-outfit text-[10px] lg:text-xs text-primaryColor-100 font-normal'>
+											<span className='font-outfit text-[10px] lg:text-xs text-primary font-normal'>
 												Share
 											</span>
 											<div className='flex flex-wrap items-center gap-3 w-full'>
