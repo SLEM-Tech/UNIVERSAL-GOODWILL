@@ -15,10 +15,10 @@ function HeroSection() {
         {/* Main hero content */}
         <div className="relative px-6 py-16 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Smart Apps, Simple Purchase.
+            Quality Books, Unbeatable Prices.
           </h1>
           <p className="text-gray-600 text-lg mb-8 max-w-md mx-auto">
-            From creative tools to business essentials, we&apos;ve got what you need.
+            From trending reads to timeless tales, discover your next page-turner.
           </p>
           
           {/* CTA Button */}
@@ -43,7 +43,7 @@ function HeroSection() {
             WHY CHOOSE US?
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
-            High-quality software tailored<br />to your needs
+            High-quality books tailored<br />to your needs
           </h2>
           
           {/* Product Cards */}
@@ -67,47 +67,47 @@ function HeroSection() {
       <div className="px-6 py-16 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
-            {/* Curated Quality */}
+            {/* Vast Collection */}
             <div className="text-center">
               <div className="flex items-center justify-center mb-4">
                 <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
-                <span className="text-gray-900 font-semibold">Curated Quality</span>
+                <span className="text-gray-900 font-semibold">Vast Collection</span>
               </div>
               <p className="text-sm text-gray-600">
-                Only top-rated, reliable software makes it to our platform.
+                Thousands of books from bestsellers to hidden gems.
               </p>
             </div>
 
-            {/* Business & Personal */}
+            {/* For Every Reader */}
             <div className="text-center">
               <div className="flex items-center justify-center mb-4">
                 <Users className="w-6 h-6 text-gray-700 mr-2" />
-                <span className="text-gray-900 font-semibold">Business & Personal</span>
+                <span className="text-gray-900 font-semibold">For Every Reader</span>
               </div>
               <p className="text-sm text-gray-600">
-                Tools for work and everyday life.
+                Kids, teens, adults—we have something for everyone.
               </p>
             </div>
 
-            {/* User-Friendly */}
+            {/* Love Your Purchase */}
             <div className="text-center">
               <div className="flex items-center justify-center mb-4">
                 <Heart className="w-6 h-6 text-pink-500 mr-2" />
-                <span className="text-gray-900 font-semibold">User-Friendly</span>
+                <span className="text-gray-900 font-semibold">Love Your Purchase</span>
               </div>
               <p className="text-sm text-gray-600">
-                Easy to use, even for non-tech folks.
+                Easy returns and excellent customer support.
               </p>
             </div>
 
-            {/* Trusted & Secure */}
+            {/* Secure Shopping */}
             <div className="text-center">
               <div className="flex items-center justify-center mb-4">
                 <Shield className="w-6 h-6 text-blue-500 mr-2" />
-                <span className="text-gray-900 font-semibold">Trusted & Secure</span>
+                <span className="text-gray-900 font-semibold">Secure Shopping</span>
               </div>
               <p className="text-sm text-gray-600">
-                Your data and purchases are always protected.
+                Protected transactions and privacy guaranteed.
               </p>
             </div>
           </div>
